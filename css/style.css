@@ -9671,6 +9671,24 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+.certification-image {
+    width: 150px;  /* Fixed width for uniform size */
+    height: 150px; /* Fixed height for uniform size */
+    object-fit: contain; /* Ensures images maintain their aspect ratio within the box */
+    display: block;
+    margin: 0 auto 10px; /* Center the image and add spacing */
+}
+
+.text {
+    text-align: center;
+}
+
+.block-18 {
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border for better visual appearance */
+    border-radius: 10px;
+    background: #f9f9f9; /* Optional background color */
+}
 
 @-webkit-keyframes loader-rotate {
   100% {
